@@ -1,0 +1,367 @@
+[0.010s] Invoking command in '/home/calinp/ros-practice/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake /home/calinp/ros-practice/messages -DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/messages
+[0.091s] -- The C compiler identification is GNU 13.3.0
+[0.144s] -- The CXX compiler identification is GNU 13.3.0
+[0.156s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.533s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.823s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.000s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.220s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.268s] -- Found PythonExtra: /usr/bin/python3  
+[1.445s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.480s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.512s] -- Configuring done (1.5s)
+[1.601s] -- Generating done (0.1s)
+[1.627s] -- Build files have been written to: /home/calinp/ros-practice/build/messages
+[1.630s] Invoked command in '/home/calinp/ros-practice/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake /home/calinp/ros-practice/messages -DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/messages
+[1.631s] Invoking command in '/home/calinp/ros-practice/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake --build /home/calinp/ros-practice/build/messages -- -j10 -l10
+[1.636s] gmake[1]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.645s] gmake[2]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.647s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.647s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.647s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.650s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.651s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.651s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.651s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.652s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.652s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.655s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.655s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.656s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.659s] [  4%] Built target ament_cmake_python_copy_messages
+[1.660s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.663s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.664s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.739s] running egg_info
+[1.739s] creating messages.egg-info
+[1.744s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.745s] writing messages.egg-info/PKG-INFO
+[1.746s] writing dependency_links to messages.egg-info/dependency_links.txt
+[1.747s] writing top-level names to messages.egg-info/top_level.txt
+[1.747s] [  4%] Built target messages__rosidl_generator_type_description
+[1.748s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[1.749s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.750s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.754s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.754s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.756s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.760s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.765s] reading manifest file 'messages.egg-info/SOURCES.txt'
+[1.770s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[1.774s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.778s] [  8%] Built target messages__rs
+[1.782s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.785s] [  8%] Built target ament_cmake_python_build_messages_egg
+[1.892s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.898s] [  8%] Built target messages__cpp
+[1.909s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.910s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.916s] [ 15%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__description.c.o[0m
+[1.916s] [ 15%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__functions.c.o[0m
+[1.917s] [ 17%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__type_support.c.o[0m
+[1.918s] [ 22%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__type_support.c.o[0m
+[1.918s] [ 22%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__functions.c.o[0m
+[1.918s] [ 22%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__description.c.o[0m
+[1.965s] [ 24%] [32m[1mLinking C shared library libmessages__rosidl_generator_c.so[0m
+[1.978s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[1.982s] [ 24%] Built target messages__rosidl_generator_c
+[1.984s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.985s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.985s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.985s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.986s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.986s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[1.989s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.989s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.990s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.991s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.991s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.991s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.102s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.104s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.110s] [ 42%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/example_msg__type_support.cpp.o[0m
+[2.110s] [ 42%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/srv/example_service__type_support.cpp.o[0m
+[2.111s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.114s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.119s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.120s] [ 44%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/example_msg__type_support.cpp.o[0m
+[2.122s] [ 46%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/srv/example_service__type_support.cpp.o[0m
+[2.124s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.131s] [ 48%] [32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/example_msg__type_support.c.o[0m
+[2.133s] [ 51%] [32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/srv/detail/example_service__type_support.c.o[0m
+[2.141s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.145s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.146s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.146s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.147s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.149s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.149s] [ 55%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/srv/detail/example_service__type_support_c.cpp.o[0m
+[2.150s] [ 55%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/example_msg__type_support_c.cpp.o[0m
+[2.152s] [ 57%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/example_msg__type_support.cpp.o[0m
+[2.154s] [ 60%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/example_msg__type_support.cpp.o[0m
+[2.180s] [ 62%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/srv/detail/example_service__type_support.cpp.o[0m
+[2.187s] [ 64%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so[0m
+[2.202s] [ 66%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/srv/detail/dds_fastrtps/example_service__type_support.cpp.o[0m
+[2.210s] [ 68%] [32m[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so[0m
+[2.214s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.219s] [ 68%] Built target messages__rosidl_typesupport_c
+[2.229s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.234s] [ 68%] Built target messages__rosidl_typesupport_introspection_c
+[2.422s] [ 71%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so[0m
+[2.473s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.475s] [ 73%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so[0m
+[2.480s] [ 73%] Built target messages__rosidl_typesupport_cpp
+[2.499s] [ 75%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so[0m
+[2.507s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.511s] [ 75%] Built target messages__rosidl_typesupport_introspection_cpp
+[2.520s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.523s] [ 75%] Built target messages__rosidl_typesupport_fastrtps_c
+[2.545s] [ 77%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.570s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.574s] [ 77%] Built target messages__rosidl_typesupport_fastrtps_cpp
+[2.575s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.577s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.581s] [ 77%] Built target messages
+[2.581s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.584s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.585s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.588s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.724s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.727s] [ 80%] Built target messages__py
+[2.728s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.731s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.732s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.736s] [ 84%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_example_msg_s.c.o[0m
+[2.736s] [ 84%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/srv/_example_service_s.c.o[0m
+[2.806s] [ 86%] [32m[1mLinking C shared library libmessages__rosidl_generator_py.so[0m
+[2.822s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.825s] [ 86%] Built target messages__rosidl_generator_py
+[2.827s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.827s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.827s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.830s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.831s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.831s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.832s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.832s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.833s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'
+[2.835s] [ 88%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.836s] [ 93%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[2.836s] [ 93%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.895s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.so[0m
+[2.900s] [100%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.900s] [100%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.so[0m
+[2.909s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.914s] [100%] Built target messages_s__rosidl_typesupport_c
+[2.918s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.918s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.922s] [100%] Built target messages_s__rosidl_typesupport_introspection_c
+[2.922s] [100%] Built target messages_s__rosidl_typesupport_fastrtps_c
+[2.922s] gmake[2]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.930s] gmake[1]: Leaving directory '/home/calinp/ros-practice/build/messages'
+[2.930s] Invoked command in '/home/calinp/ros-practice/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake --build /home/calinp/ros-practice/build/messages -- -j10 -l10
+[2.934s] Invoking command in '/home/calinp/ros-practice/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake --install /home/calinp/ros-practice/build/messages
+[2.937s] -- Install configuration: ""
+[2.938s] -- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages
+[2.940s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.json
+[2.942s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.json
+[2.943s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages
+[2.943s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[2.944s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h
+[2.945s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[2.945s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__functions.c
+[2.946s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__struct.h
+[2.947s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.c
+[2.948s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__functions.h
+[2.949s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__description.c
+[2.950s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.h
+[2.952s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/example_msg.h
+[2.952s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[2.953s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[2.954s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.c
+[2.954s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__functions.c
+[2.956s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.h
+[2.957s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__description.c
+[2.958s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__struct.h
+[2.959s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__functions.h
+[2.959s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/example_service.h
+[2.961s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/library_path.sh
+[2.961s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/library_path.dsv
+[2.963s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_c.so
+[2.964s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_c.so" to ""
+[2.964s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages
+[2.965s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[2.965s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[2.965s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[2.966s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.967s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[2.967s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[2.968s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_fastrtps_c.h
+[2.969s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so
+[2.971s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""
+[2.971s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages
+[2.971s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[2.971s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[2.972s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.c
+[2.972s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[2.973s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.974s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[2.975s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[2.976s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.c
+[2.976s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_introspection_c.h
+[2.981s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so
+[2.982s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""
+[2.983s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_c.so
+[2.985s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""
+[2.985s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages
+[2.985s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[2.986s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/example_msg.hpp
+[2.987s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[2.987s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__traits.hpp
+[2.988s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__builder.hpp
+[2.989s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.hpp
+[2.990s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__struct.hpp
+[2.991s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.991s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[2.992s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[2.992s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__builder.hpp
+[2.993s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__traits.hpp
+[2.994s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.hpp
+[2.995s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__struct.hpp
+[2.996s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/example_service.hpp
+[2.997s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages
+[2.997s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[2.998s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.999s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[2.999s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.000s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/dds_fastrtps
+[3.001s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[3.001s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[3.001s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/dds_fastrtps
+[3.001s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_fastrtps_cpp.hpp
+[3.003s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so
+[3.005s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.005s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages
+[3.005s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg
+[3.005s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail
+[3.005s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.006s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.cpp
+[3.007s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv
+[3.007s] -- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail
+[3.008s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.cpp
+[3.009s] -- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_introspection_cpp.hpp
+[3.010s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so
+[3.011s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""
+[3.012s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_cpp.so
+[3.013s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""
+[3.014s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/pythonpath.sh
+[3.015s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/pythonpath.dsv
+[3.015s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info
+[3.016s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/PKG-INFO
+[3.017s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.018s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/top_level.txt
+[3.019s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.020s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages
+[3.021s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_c.c
+[3.021s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so
+[3.023s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg
+[3.023s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg.py
+[3.024s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py
+[3.025s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg_s.c
+[3.026s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.027s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/__init__.py
+[3.028s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so
+[3.030s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
+[3.031s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so
+[3.032s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv
+[3.033s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/__init__.py
+[3.034s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service_s.c
+[3.035s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service.py
+[3.055s] Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages'...
+[3.056s] Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/__init__.py'...
+[3.056s] Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg'...
+[3.056s] Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py'...
+[3.056s] Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg.py'...
+[3.056s] Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv'...
+[3.056s] Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/__init__.py'...
+[3.056s] Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service.py'...
+[3.058s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so
+[3.059s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.060s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so
+[3.062s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so" to ""
+[3.062s] -- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so
+[3.063s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so" to ""
+[3.064s] -- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_py.so
+[3.065s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_py.so" to ""
+[3.066s] -- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/rust_packages/messages
+[3.067s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust
+[3.067s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/Cargo.toml
+[3.068s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/build.rs
+[3.069s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src
+[3.069s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg
+[3.070s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg/rmw.rs
+[3.071s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/lib.rs
+[3.072s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv.rs
+[3.073s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg.rs
+[3.074s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv
+[3.074s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv/rmw.rs
+[3.076s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.idl
+[3.077s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.idl
+[3.078s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.msg
+[3.079s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.srv
+[3.080s] -- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/package_run_dependencies/messages
+[3.082s] -- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/parent_prefix_path/messages
+[3.083s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/ament_prefix_path.sh
+[3.084s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/ament_prefix_path.dsv
+[3.085s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/path.sh
+[3.086s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/path.dsv
+[3.087s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.bash
+[3.089s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.sh
+[3.090s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.zsh
+[3.091s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.dsv
+[3.092s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/package.dsv
+[3.095s] -- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/packages/messages
+[3.097s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake
+[3.098s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake
+[3.099s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[3.101s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.102s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake
+[3.103s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.104s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake
+[3.106s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake
+[3.107s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake
+[3.108s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.109s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.110s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake
+[3.112s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.113s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake
+[3.114s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake
+[3.115s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake
+[3.116s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake
+[3.117s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake
+[3.118s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.119s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.120s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake
+[3.122s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake
+[3.123s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.124s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.125s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.127s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messagesConfig.cmake
+[3.127s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messagesConfig-version.cmake
+[3.128s] -- Installing: /home/calinp/ros-practice/install/messages/share/messages/package.xml
+[3.132s] Invoked command in '/home/calinp/ros-practice/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy /usr/bin/cmake --install /home/calinp/ros-practice/build/messages

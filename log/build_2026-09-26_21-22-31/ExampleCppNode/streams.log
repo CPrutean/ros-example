@@ -1,0 +1,65 @@
+[0.011s] Invoking command in '/home/calinp/ros-practice/build/ExampleCppNode': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/calinp/ros-practice/ExampleCppNode -DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/ExampleCppNode
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.086s] -- The CXX compiler identification is GNU 13.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.294s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.546s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.600s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.717s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.722s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.771s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.779s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.849s] -- Found messages: 0.0.0 (/home/calinp/ros-practice/install/messages/share/messages/cmake)
+[0.889s] WARNING: Package name "ExampleCppNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.902s] -- Configuring done (0.9s)
+[0.921s] -- Generating done (0.0s)
+[0.929s] -- Build files have been written to: /home/calinp/ros-practice/build/ExampleCppNode
+[0.933s] Invoked command in '/home/calinp/ros-practice/build/ExampleCppNode' returned '0': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/calinp/ros-practice/ExampleCppNode -DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/ExampleCppNode
+[0.933s] Invoking command in '/home/calinp/ros-practice/build/ExampleCppNode': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/calinp/ros-practice/build/ExampleCppNode -- -j10 -l10
+[0.938s] gmake[1]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[0.949s] gmake[2]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[0.950s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[0.954s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[0.955s] gmake[3]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/ros-node.dir/src/example_cpp_node.cpp.o[0m
+[3.985s] [100%] [32m[1mLinking CXX executable ros-node[0m
+[4.149s] gmake[3]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[4.154s] [100%] Built target ros-node
+[4.154s] gmake[2]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[4.159s] gmake[1]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'
+[4.159s] Invoked command in '/home/calinp/ros-practice/build/ExampleCppNode' returned '0': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/calinp/ros-practice/build/ExampleCppNode -- -j10 -l10
+[4.160s] Invoking command in '/home/calinp/ros-practice/build/ExampleCppNode': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/calinp/ros-practice/build/ExampleCppNode
+[4.165s] -- Install configuration: ""
+[4.166s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/lib/ExampleCppNode/ros-node
+[4.191s] -- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/ExampleCppNode/lib/ExampleCppNode/ros-node" to ""
+[4.191s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/package_run_dependencies/ExampleCppNode
+[4.193s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/parent_prefix_path/ExampleCppNode
+[4.195s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/ament_prefix_path.sh
+[4.195s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/ament_prefix_path.dsv
+[4.196s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/path.sh
+[4.197s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/path.dsv
+[4.198s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.bash
+[4.199s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.sh
+[4.201s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.zsh
+[4.202s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.dsv
+[4.203s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/package.dsv
+[4.205s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/packages/ExampleCppNode
+[4.206s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/cmake/ExampleCppNodeConfig.cmake
+[4.207s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/cmake/ExampleCppNodeConfig-version.cmake
+[4.208s] -- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/package.xml
+[4.211s] Invoked command in '/home/calinp/ros-practice/build/ExampleCppNode' returned '0': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/calinp/ros-practice/build/ExampleCppNode

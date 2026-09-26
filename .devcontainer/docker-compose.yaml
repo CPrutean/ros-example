@@ -1,0 +1,26 @@
+services:
+  robot:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    image: ros-practice:latest
+    container_name: ros-practice
+    user: calinp
+    environment:
+      TZ: ${TZ:-UTC}
+    volumes:
+      - type: bind
+        source: ..
+        target: /home/calinp/ros-practice
+    working_dir: /home/calinp/ros-practice
+    stdin_open: true
+    tty: true
+  dev:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+      target: dev
+    image: ros-practice:dev
+    container_name: ros-practice-dev
+    stdin_open: true
+    tty: true

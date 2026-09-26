@@ -1,0 +1,591 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.000458] (ExampleCppNode) JobQueued: {'identifier': 'ExampleCppNode', 'dependencies': OrderedDict({'messages': '/home/calinp/ros-practice/install/messages'})}
+[0.000685] (ExamplePythonNode) JobQueued: {'identifier': 'ExamplePythonNode', 'dependencies': OrderedDict({'messages': '/home/calinp/ros-practice/install/messages'})}
+[0.000743] (ExampleLaunch) JobQueued: {'identifier': 'ExampleLaunch', 'dependencies': OrderedDict({'messages': '/home/calinp/ros-practice/install/messages', 'ExampleCppNode': '/home/calinp/ros-practice/install/ExampleCppNode', 'ExamplePythonNode': '/home/calinp/ros-practice/install/ExamplePythonNode'})}
+[0.000814] (messages) JobStarted: {'identifier': 'messages'}
+[0.007513] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.008958] (messages) Command: {'cmd': ['/usr/bin/cmake', '/home/calinp/ros-practice/messages', '-DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/messages'], 'cwd': '/home/calinp/ros-practice/build/messages', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/messages', 'PYTHONPATH': '/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[0.091190] (messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099584] (-) TimerEvent: {}
+[0.144510] (messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.156126] (messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200275] (-) TimerEvent: {}
+[0.248985] (messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.257183] (messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.257739] (messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.258060] (messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.262761] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300375] (-) TimerEvent: {}
+[0.354414] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.365059] (messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.366621] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.367807] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.375405] (messages) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400432] (-) TimerEvent: {}
+[0.466218] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.502741] (-) TimerEvent: {}
+[0.533652] (messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.537138] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562205] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.584941] (messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.602882] (-) TimerEvent: {}
+[0.703194] (-) TimerEvent: {}
+[0.804436] (-) TimerEvent: {}
+[0.824222] (messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.904610] (-) TimerEvent: {}
+[1.000675] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004690] (-) TimerEvent: {}
+[1.105314] (-) TimerEvent: {}
+[1.206047] (-) TimerEvent: {}
+[1.219190] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.220733] (messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.268395] (messages) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.306117] (-) TimerEvent: {}
+[1.406327] (-) TimerEvent: {}
+[1.445655] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.480807] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.506416] (-) TimerEvent: {}
+[1.512424] (messages) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.602015] (messages) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.606512] (-) TimerEvent: {}
+[1.627233] (messages) StdoutLine: {'line': b'-- Build files have been written to: /home/calinp/ros-practice/build/messages\n'}
+[1.630853] (messages) CommandEnded: {'returncode': 0}
+[1.631158] (messages) JobProgress: {'identifier': 'messages', 'progress': 'build'}
+[1.631571] (messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/calinp/ros-practice/build/messages', '--', '-j10', '-l10'], 'cwd': '/home/calinp/ros-practice/build/messages', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/messages', 'PYTHONPATH': '/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[1.636410] (messages) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.646141] (messages) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.647338] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.647705] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.647879] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.650930] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.651278] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.651636] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.652082] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.652391] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.652648] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.655370] (messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.655904] (messages) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.656220] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.659684] (messages) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_messages\n'}
+[1.660663] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.663666] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.664413] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.706630] (-) TimerEvent: {}
+[1.739851] (messages) StdoutLine: {'line': b'running egg_info\n'}
+[1.740310] (messages) StdoutLine: {'line': b'creating messages.egg-info\n'}
+[1.744793] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.745948] (messages) StdoutLine: {'line': b'writing messages.egg-info/PKG-INFO\n'}
+[1.747028] (messages) StdoutLine: {'line': b'writing dependency_links to messages.egg-info/dependency_links.txt\n'}
+[1.747594] (messages) StdoutLine: {'line': b'writing top-level names to messages.egg-info/top_level.txt\n'}
+[1.748014] (messages) StdoutLine: {'line': b'[  4%] Built target messages__rosidl_generator_type_description\n'}
+[1.748403] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.749864] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.750338] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.754253] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.754565] (messages) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.755706] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.760324] (messages) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.765365] (messages) StdoutLine: {'line': b"reading manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.766341] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.774852] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.778629] (messages) StdoutLine: {'line': b'[  8%] Built target messages__rs\n'}
+[1.782253] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.785688] (messages) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_messages_egg\n'}
+[1.807185] (-) TimerEvent: {}
+[1.892546] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.898806] (messages) StdoutLine: {'line': b'[  8%] Built target messages__cpp\n'}
+[1.907272] (-) TimerEvent: {}
+[1.909913] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.911025] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.915702] (messages) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__description.c.o\x1b[0m\n'}
+[1.916918] (messages) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__functions.c.o\x1b[0m\n'}
+[1.917345] (messages) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/example_msg__type_support.c.o\x1b[0m\n'}
+[1.918032] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__type_support.c.o\x1b[0m\n'}
+[1.918567] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__functions.c.o\x1b[0m\n'}
+[1.918999] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/srv/detail/example_service__description.c.o\x1b[0m\n'}
+[1.965888] (messages) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_c.so\x1b[0m\n'}
+[1.978576] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.982312] (messages) StdoutLine: {'line': b'[ 24%] Built target messages__rosidl_generator_c\n'}
+[1.985072] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.985423] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.986015] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.986237] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.986426] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.986608] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[1.988772] (messages) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.989715] (messages) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.990254] (messages) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.990881] (messages) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.991629] (messages) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.991934] (messages) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.007910] (-) TimerEvent: {}
+[2.102350] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.104236] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.108345] (-) TimerEvent: {}
+[2.110838] (messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/example_msg__type_support.cpp.o\x1b[0m\n'}
+[2.111246] (messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/srv/example_service__type_support.cpp.o\x1b[0m\n'}
+[2.111389] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.114522] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.119710] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.120552] (messages) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/example_msg__type_support.cpp.o\x1b[0m\n'}
+[2.121769] (messages) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/srv/example_service__type_support.cpp.o\x1b[0m\n'}
+[2.123844] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.131052] (messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/example_msg__type_support.c.o\x1b[0m\n'}
+[2.133073] (messages) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/srv/detail/example_service__type_support.c.o\x1b[0m\n'}
+[2.141617] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.144158] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.146202] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.146961] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.147716] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.149631] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.150040] (messages) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/srv/detail/example_service__type_support_c.cpp.o\x1b[0m\n'}
+[2.150335] (messages) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/example_msg__type_support_c.cpp.o\x1b[0m\n'}
+[2.152007] (messages) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/example_msg__type_support.cpp.o\x1b[0m\n'}
+[2.153882] (messages) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/example_msg__type_support.cpp.o\x1b[0m\n'}
+[2.180255] (messages) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/srv/detail/example_service__type_support.cpp.o\x1b[0m\n'}
+[2.187458] (messages) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.202127] (messages) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/srv/detail/dds_fastrtps/example_service__type_support.cpp.o\x1b[0m\n'}
+[2.208456] (-) TimerEvent: {}
+[2.210843] (messages) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.214865] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.220046] (messages) StdoutLine: {'line': b'[ 68%] Built target messages__rosidl_typesupport_c\n'}
+[2.229523] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.234130] (messages) StdoutLine: {'line': b'[ 68%] Built target messages__rosidl_typesupport_introspection_c\n'}
+[2.309038] (-) TimerEvent: {}
+[2.409890] (-) TimerEvent: {}
+[2.423086] (messages) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.473561] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.476021] (messages) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.480831] (messages) StdoutLine: {'line': b'[ 73%] Built target messages__rosidl_typesupport_cpp\n'}
+[2.499828] (messages) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.507625] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.509931] (-) TimerEvent: {}
+[2.511516] (messages) StdoutLine: {'line': b'[ 75%] Built target messages__rosidl_typesupport_introspection_cpp\n'}
+[2.520392] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.524179] (messages) StdoutLine: {'line': b'[ 75%] Built target messages__rosidl_typesupport_fastrtps_c\n'}
+[2.545505] (messages) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.570912] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.574438] (messages) StdoutLine: {'line': b'[ 77%] Built target messages__rosidl_typesupport_fastrtps_cpp\n'}
+[2.575406] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.577975] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.581212] (messages) StdoutLine: {'line': b'[ 77%] Built target messages\n'}
+[2.582169] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.584877] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.585669] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.588350] (messages) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.611705] (-) TimerEvent: {}
+[2.711896] (-) TimerEvent: {}
+[2.725198] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.728157] (messages) StdoutLine: {'line': b'[ 80%] Built target messages__py\n'}
+[2.729269] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.732055] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.733095] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.736590] (messages) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_example_msg_s.c.o\x1b[0m\n'}
+[2.737028] (messages) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/srv/_example_service_s.c.o\x1b[0m\n'}
+[2.807105] (messages) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_py.so\x1b[0m\n'}
+[2.811967] (-) TimerEvent: {}
+[2.822451] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.825713] (messages) StdoutLine: {'line': b'[ 86%] Built target messages__rosidl_generator_py\n'}
+[2.827328] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.827760] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.827970] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.830552] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.831234] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.831572] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.832547] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.833114] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.833388] (messages) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.835752] (messages) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.836405] (messages) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.836792] (messages) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.895856] (messages) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.900725] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.900976] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.909532] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.912051] (-) TimerEvent: {}
+[2.913907] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_c\n'}
+[2.918512] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.919198] (messages) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.922404] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_introspection_c\n'}
+[2.923011] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_fastrtps_c\n'}
+[2.923153] (messages) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.929997] (messages) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/calinp/ros-practice/build/messages'\n"}
+[2.931108] (messages) CommandEnded: {'returncode': 0}
+[2.931826] (messages) JobProgress: {'identifier': 'messages', 'progress': 'install'}
+[2.934759] (messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/calinp/ros-practice/build/messages'], 'cwd': '/home/calinp/ros-practice/build/messages', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/messages', 'PYTHONPATH': '/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[2.937956] (messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.939118] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages\n'}
+[2.940619] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.json\n'}
+[2.941828] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.json\n'}
+[2.943306] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[2.944015] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[2.944506] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.945439] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[2.946218] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__functions.c\n'}
+[2.947079] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__struct.h\n'}
+[2.948080] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.c\n'}
+[2.948799] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__functions.h\n'}
+[2.950206] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__description.c\n'}
+[2.951025] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.h\n'}
+[2.952355] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/example_msg.h\n'}
+[2.953237] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[2.953947] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[2.954463] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.c\n'}
+[2.955201] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__functions.c\n'}
+[2.956699] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.h\n'}
+[2.957446] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__description.c\n'}
+[2.958485] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__struct.h\n'}
+[2.959451] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__functions.h\n'}
+[2.960270] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/example_service.h\n'}
+[2.961375] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/library_path.sh\n'}
+[2.962185] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/library_path.dsv\n'}
+[2.963420] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_c.so\n'}
+[2.965092] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_c.so" to ""\n'}
+[2.965272] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[2.965507] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[2.965728] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[2.965994] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.967083] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.967851] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[2.968057] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[2.968420] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_fastrtps_c.h\n'}
+[2.969523] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so\n'}
+[2.971385] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.971540] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[2.971934] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[2.972216] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[2.972596] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.c\n'}
+[2.972790] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.973846] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.975119] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[2.975426] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[2.975809] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.c\n'}
+[2.976610] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_introspection_c.h\n'}
+[2.981366] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so\n'}
+[2.983268] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.983474] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_c.so\n'}
+[2.985599] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""\n'}
+[2.985840] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[2.986135] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[2.986482] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/example_msg.hpp\n'}
+[2.987205] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[2.987613] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__traits.hpp\n'}
+[2.988415] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__builder.hpp\n'}
+[2.989464] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.hpp\n'}
+[2.990374] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__struct.hpp\n'}
+[2.991369] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.992097] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[2.992495] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[2.992881] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__builder.hpp\n'}
+[2.993889] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__traits.hpp\n'}
+[2.994715] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.hpp\n'}
+[2.995809] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__struct.hpp\n'}
+[2.996836] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/example_service.hpp\n'}
+[2.997891] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[2.998172] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[2.998565] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.999482] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[2.999774] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.000650] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/dds_fastrtps\n'}
+[3.001368] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[3.001600] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[3.001850] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/dds_fastrtps\n'}
+[3.002316] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.003511] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.005453] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.005591] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages\n'}
+[3.005786] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg\n'}
+[3.005993] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail\n'}
+[3.006250] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.007236] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/msg/detail/example_msg__type_support.cpp\n'}
+[3.007969] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv\n'}
+[3.008241] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail\n'}
+[3.008639] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__type_support.cpp\n'}
+[3.009502] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/include/messages/messages/srv/detail/example_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.010596] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so\n'}
+[3.011940] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.012121] (-) TimerEvent: {}
+[3.012385] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_cpp.so\n'}
+[3.014167] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""\n'}
+[3.014497] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/pythonpath.sh\n'}
+[3.015410] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/pythonpath.dsv\n'}
+[3.016281] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info\n'}
+[3.017085] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.017907] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.018915] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.019659] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.020701] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages\n'}
+[3.021322] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_c.c\n'}
+[3.022246] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so\n'}
+[3.023416] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg\n'}
+[3.024105] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg.py\n'}
+[3.024898] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py\n'}
+[3.025908] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg_s.c\n'}
+[3.027053] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.028197] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/__init__.py\n'}
+[3.028956] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.030425] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.031568] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so\n'}
+[3.033135] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv\n'}
+[3.033788] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/__init__.py\n'}
+[3.034551] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service_s.c\n'}
+[3.035469] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service.py\n'}
+[3.055182] (messages) StdoutLine: {'line': b"Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages'...\n"}
+[3.056355] (messages) StdoutLine: {'line': b"Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/__init__.py'...\n"}
+[3.056625] (messages) StdoutLine: {'line': b"Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg'...\n"}
+[3.056824] (messages) StdoutLine: {'line': b"Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py'...\n"}
+[3.056974] (messages) StdoutLine: {'line': b"Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/msg/_example_msg.py'...\n"}
+[3.057093] (messages) StdoutLine: {'line': b"Listing '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv'...\n"}
+[3.057198] (messages) StdoutLine: {'line': b"Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/__init__.py'...\n"}
+[3.057293] (messages) StdoutLine: {'line': b"Compiling '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/srv/_example_service.py'...\n"}
+[3.058718] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.060175] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.060631] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so\n'}
+[3.062509] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.062975] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so\n'}
+[3.064123] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so" to ""\n'}
+[3.064400] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_py.so\n'}
+[3.066013] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/messages/lib/libmessages__rosidl_generator_py.so" to ""\n'}
+[3.066518] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/rust_packages/messages\n'}
+[3.067458] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust\n'}
+[3.067841] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/Cargo.toml\n'}
+[3.068629] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/build.rs\n'}
+[3.069654] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src\n'}
+[3.070209] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg\n'}
+[3.070887] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg/rmw.rs\n'}
+[3.071648] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/lib.rs\n'}
+[3.072493] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv.rs\n'}
+[3.073487] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/msg.rs\n'}
+[3.074467] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv\n'}
+[3.075221] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/rust/src/srv/rmw.rs\n'}
+[3.076310] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.idl\n'}
+[3.077434] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.idl\n'}
+[3.078574] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/msg/ExampleMsg.msg\n'}
+[3.079591] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/srv/ExampleService.srv\n'}
+[3.081073] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/package_run_dependencies/messages\n'}
+[3.082484] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/parent_prefix_path/messages\n'}
+[3.083621] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/ament_prefix_path.sh\n'}
+[3.084700] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/ament_prefix_path.dsv\n'}
+[3.085922] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/path.sh\n'}
+[3.086982] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/environment/path.dsv\n'}
+[3.088219] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.bash\n'}
+[3.089307] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.sh\n'}
+[3.090539] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.zsh\n'}
+[3.091567] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/local_setup.dsv\n'}
+[3.092678] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/package.dsv\n'}
+[3.095300] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/ament_index/resource_index/packages/messages\n'}
+[3.097372] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake\n'}
+[3.099070] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.100062] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.101340] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.102378] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.103690] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.104839] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake\n'}
+[3.106319] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.107302] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake\n'}
+[3.108504] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.109500] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.110735] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.112192] (-) TimerEvent: {}
+[3.112438] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.113501] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake\n'}
+[3.114639] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.115673] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake\n'}
+[3.117107] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.118020] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake\n'}
+[3.119036] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.119994] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.121152] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.122305] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.123853] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.125075] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.126001] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[3.127182] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messagesConfig.cmake\n'}
+[3.128253] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/cmake/messagesConfig-version.cmake\n'}
+[3.129198] (messages) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/messages/share/messages/package.xml\n'}
+[3.131556] (messages) CommandEnded: {'returncode': 0}
+[3.164412] (messages) JobEnded: {'identifier': 'messages', 'rc': 0}
+[3.165731] (ExampleCppNode) JobStarted: {'identifier': 'ExampleCppNode'}
+[3.167559] (ExamplePythonNode) JobStarted: {'identifier': 'ExamplePythonNode'}
+[3.173130] (ExampleCppNode) JobProgress: {'identifier': 'ExampleCppNode', 'progress': 'cmake'}
+[3.175173] (ExampleCppNode) Command: {'cmd': ['/usr/bin/cmake', '/home/calinp/ros-practice/ExampleCppNode', '-DCMAKE_INSTALL_PREFIX=/home/calinp/ros-practice/install/ExampleCppNode'], 'cwd': '/home/calinp/ros-practice/build/ExampleCppNode', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/ExampleCppNode', 'PYTHONPATH': '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[3.212089] (ExampleCppNode) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.212520] (-) TimerEvent: {}
+[3.251459] (ExampleCppNode) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.266869] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.312658] (-) TimerEvent: {}
+[3.365971] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.373550] (ExampleCppNode) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.373790] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.374036] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.378759] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.412754] (-) TimerEvent: {}
+[3.459400] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.466407] (ExampleCppNode) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.467031] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.467271] (ExampleCppNode) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.471972] (ExampleCppNode) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.496812] (ExamplePythonNode) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ExamplePythonNode', 'build', '--build-base', '/home/calinp/ros-practice/build/ExamplePythonNode/build', 'install', '--record', '/home/calinp/ros-practice/build/ExamplePythonNode/install.log', '--install-scripts', '$base/lib/ExamplePythonNode', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/calinp/ros-practice/ExamplePythonNode', 'env': {'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/ExamplePythonNode', 'PYTHONPATH': '/home/calinp/ros-practice/build/ExamplePythonNode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode'}, 'shell': False}
+[3.512830] (-) TimerEvent: {}
+[3.584788] (ExampleCppNode) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.593882] (ExamplePythonNode) StdoutLine: {'line': b'running egg_info\n'}
+[3.594172] (ExamplePythonNode) StdoutLine: {'line': b'creating ../build/ExamplePythonNode/ExamplePythonNode.egg-info\n'}
+[3.599262] (ExamplePythonNode) StdoutLine: {'line': b'writing ../build/ExamplePythonNode/ExamplePythonNode.egg-info/PKG-INFO\n'}
+[3.599901] (ExamplePythonNode) StdoutLine: {'line': b'writing dependency_links to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/dependency_links.txt\n'}
+[3.600295] (ExamplePythonNode) StdoutLine: {'line': b'writing entry points to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/entry_points.txt\n'}
+[3.600619] (ExamplePythonNode) StdoutLine: {'line': b'writing requirements to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/requires.txt\n'}
+[3.600897] (ExamplePythonNode) StdoutLine: {'line': b'writing top-level names to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/top_level.txt\n'}
+[3.601177] (ExamplePythonNode) StdoutLine: {'line': b"writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'\n"}
+[3.610935] (ExamplePythonNode) StdoutLine: {'line': b"reading manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'\n"}
+[3.612009] (ExamplePythonNode) StdoutLine: {'line': b"writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'\n"}
+[3.613290] (-) TimerEvent: {}
+[3.615209] (ExamplePythonNode) StdoutLine: {'line': b'running build\n'}
+[3.615666] (ExamplePythonNode) StdoutLine: {'line': b'running build_py\n'}
+[3.615928] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/build/ExamplePythonNode/build\n'}
+[3.616135] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib\n'}
+[3.616251] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode\n'}
+[3.616369] (ExamplePythonNode) StdoutLine: {'line': b'copying ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode\n'}
+[3.616520] (ExamplePythonNode) StdoutLine: {'line': b'copying ExamplePythonNode/main.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode\n'}
+[3.619359] (ExamplePythonNode) StdoutLine: {'line': b'running install\n'}
+[3.622223] (ExamplePythonNode) StdoutLine: {'line': b'running install_lib\n'}
+[3.625428] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode\n'}
+[3.625769] (ExamplePythonNode) StdoutLine: {'line': b'copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode\n'}
+[3.626355] (ExamplePythonNode) StdoutLine: {'line': b'copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/main.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode\n'}
+[3.627690] (ExamplePythonNode) StdoutLine: {'line': b'byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/__init__.py to __init__.cpython-312.pyc\n'}
+[3.628642] (ExamplePythonNode) StdoutLine: {'line': b'byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/main.py to main.cpython-312.pyc\n'}
+[3.629724] (ExamplePythonNode) StdoutLine: {'line': b'running install_data\n'}
+[3.630065] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index\n'}
+[3.630483] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index\n'}
+[3.630801] (ExamplePythonNode) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages\n'}
+[3.630984] (ExamplePythonNode) StdoutLine: {'line': b'copying resource/ExamplePythonNode -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages\n'}
+[3.631211] (ExamplePythonNode) StdoutLine: {'line': b'copying package.xml -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ExamplePythonNode\n'}
+[3.631890] (ExamplePythonNode) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.640729] (ExamplePythonNode) StdoutLine: {'line': b'Copying ../build/ExamplePythonNode/ExamplePythonNode.egg-info to /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode-0.0.0-py3.12.egg-info\n'}
+[3.645902] (ExamplePythonNode) StdoutLine: {'line': b'running install_scripts\n'}
+[3.699140] (ExamplePythonNode) StdoutLine: {'line': b'Installing ExamplePythonNode script to /home/calinp/ros-practice/install/ExamplePythonNode/lib/ExamplePythonNode\n'}
+[3.700060] (ExamplePythonNode) StdoutLine: {'line': b"writing list of installed files to '/home/calinp/ros-practice/build/ExamplePythonNode/install.log'\n"}
+[3.710598] (ExampleCppNode) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.713361] (-) TimerEvent: {}
+[3.717018] (ExamplePythonNode) CommandEnded: {'returncode': 0}
+[3.725573] (ExamplePythonNode) JobEnded: {'identifier': 'ExamplePythonNode', 'rc': 0}
+[3.765468] (ExampleCppNode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.781941] (ExampleCppNode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.799343] (ExampleCppNode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.813424] (-) TimerEvent: {}
+[3.818603] (ExampleCppNode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.882943] (ExampleCppNode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.887994] (ExampleCppNode) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.913489] (-) TimerEvent: {}
+[3.936883] (ExampleCppNode) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.945069] (ExampleCppNode) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.954321] (ExampleCppNode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.007335] (ExampleCppNode) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[4.013575] (-) TimerEvent: {}
+[4.015017] (ExampleCppNode) StdoutLine: {'line': b'-- Found messages: 0.0.0 (/home/calinp/ros-practice/install/messages/share/messages/cmake)\n'}
+[4.051541] (ExampleCppNode) StderrLine: {'line': b'WARNING: Package name "ExampleCppNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[4.067342] (ExampleCppNode) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[4.086774] (ExampleCppNode) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.094402] (ExampleCppNode) StdoutLine: {'line': b'-- Build files have been written to: /home/calinp/ros-practice/build/ExampleCppNode\n'}
+[4.098510] (ExampleCppNode) CommandEnded: {'returncode': 0}
+[4.098837] (ExampleCppNode) JobProgress: {'identifier': 'ExampleCppNode', 'progress': 'build'}
+[4.099093] (ExampleCppNode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/calinp/ros-practice/build/ExampleCppNode', '--', '-j10', '-l10'], 'cwd': '/home/calinp/ros-practice/build/ExampleCppNode', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/ExampleCppNode', 'PYTHONPATH': '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[4.103974] (ExampleCppNode) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[4.113768] (-) TimerEvent: {}
+[4.114465] (ExampleCppNode) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[4.115554] (ExampleCppNode) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[4.119564] (ExampleCppNode) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[4.120539] (ExampleCppNode) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[4.124608] (ExampleCppNode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros-node.dir/src/example_cpp_node.cpp.o\x1b[0m\n'}
+[4.213885] (-) TimerEvent: {}
+[4.314208] (-) TimerEvent: {}
+[4.414761] (-) TimerEvent: {}
+[4.522935] (-) TimerEvent: {}
+[4.623947] (-) TimerEvent: {}
+[4.724478] (-) TimerEvent: {}
+[4.829763] (-) TimerEvent: {}
+[4.932545] (-) TimerEvent: {}
+[5.036278] (-) TimerEvent: {}
+[5.139606] (-) TimerEvent: {}
+[5.244218] (-) TimerEvent: {}
+[5.344790] (-) TimerEvent: {}
+[5.445270] (-) TimerEvent: {}
+[5.546110] (-) TimerEvent: {}
+[5.647403] (-) TimerEvent: {}
+[5.749281] (-) TimerEvent: {}
+[5.851884] (-) TimerEvent: {}
+[5.954622] (-) TimerEvent: {}
+[6.057793] (-) TimerEvent: {}
+[6.158522] (-) TimerEvent: {}
+[6.259651] (-) TimerEvent: {}
+[6.360920] (-) TimerEvent: {}
+[6.461651] (-) TimerEvent: {}
+[6.562852] (-) TimerEvent: {}
+[6.663330] (-) TimerEvent: {}
+[6.764188] (-) TimerEvent: {}
+[6.866208] (-) TimerEvent: {}
+[6.966772] (-) TimerEvent: {}
+[7.067311] (-) TimerEvent: {}
+[7.150835] (ExampleCppNode) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros-node\x1b[0m\n'}
+[7.168194] (-) TimerEvent: {}
+[7.268365] (-) TimerEvent: {}
+[7.314950] (ExampleCppNode) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[7.319488] (ExampleCppNode) StdoutLine: {'line': b'[100%] Built target ros-node\n'}
+[7.319706] (ExampleCppNode) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[7.324275] (ExampleCppNode) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/calinp/ros-practice/build/ExampleCppNode'\n"}
+[7.325091] (ExampleCppNode) CommandEnded: {'returncode': 0}
+[7.325803] (ExampleCppNode) JobProgress: {'identifier': 'ExampleCppNode', 'progress': 'install'}
+[7.325965] (ExampleCppNode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/calinp/ros-practice/build/ExampleCppNode'], 'cwd': '/home/calinp/ros-practice/build/ExampleCppNode', 'env': OrderedDict({'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/ExampleCppNode', 'PYTHONPATH': '/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExamplePythonNode:/opt/ros/jazzy'}), 'shell': False}
+[7.330570] (ExampleCppNode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.332001] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/lib/ExampleCppNode/ros-node\n'}
+[7.356300] (ExampleCppNode) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calinp/ros-practice/install/ExampleCppNode/lib/ExampleCppNode/ros-node" to ""\n'}
+[7.356874] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/package_run_dependencies/ExampleCppNode\n'}
+[7.358469] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/parent_prefix_path/ExampleCppNode\n'}
+[7.360102] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/ament_prefix_path.sh\n'}
+[7.361018] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/ament_prefix_path.dsv\n'}
+[7.361948] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/path.sh\n'}
+[7.362928] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/environment/path.dsv\n'}
+[7.364121] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.bash\n'}
+[7.364972] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.sh\n'}
+[7.366323] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.zsh\n'}
+[7.367596] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/local_setup.dsv\n'}
+[7.368441] (-) TimerEvent: {}
+[7.368709] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/package.dsv\n'}
+[7.370035] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ament_index/resource_index/packages/ExampleCppNode\n'}
+[7.371321] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/cmake/ExampleCppNodeConfig.cmake\n'}
+[7.372263] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/cmake/ExampleCppNodeConfig-version.cmake\n'}
+[7.373923] (ExampleCppNode) StdoutLine: {'line': b'-- Installing: /home/calinp/ros-practice/install/ExampleCppNode/share/ExampleCppNode/package.xml\n'}
+[7.376227] (ExampleCppNode) CommandEnded: {'returncode': 0}
+[7.387811] (ExampleCppNode) JobEnded: {'identifier': 'ExampleCppNode', 'rc': 0}
+[7.388911] (ExampleLaunch) JobStarted: {'identifier': 'ExampleLaunch'}
+[7.468519] (-) TimerEvent: {}
+[7.568698] (-) TimerEvent: {}
+[7.626107] (ExampleLaunch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ExampleLaunch', 'build', '--build-base', '/home/calinp/ros-practice/build/ExampleLaunch/build', 'install', '--record', '/home/calinp/ros-practice/build/ExampleLaunch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/calinp/ros-practice/ExampleLaunch', 'env': {'HISTFILESIZE': '20000', 'HOSTNAME': 'de8087d30476', 'LD_LIBRARY_PATH': '/home/calinp/ros-practice/install/messages/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'SHLVL': '2', 'HOME': '/home/calinp', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '', 'MAKE_TERMERR': '/dev/pts/2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/calinp/ros-practice/install', 'ROS_ENV_SOURCED': '1', '_': '/usr/bin/make', 'ROS_VERSION': '2', 'TERM': 'xterm', 'HISTCONTROL': 'ignoreboth:erasedups', 'PATH': '/home/calinp/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'MAKELEVEL': '1', 'LANG': 'C.UTF-8', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy', 'ROS_WS': '/home/trickfire/urc-2023', 'MAKE_TERMOUT': '/dev/pts/2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/calinp/ros-practice/build/ExampleLaunch', 'PYTHONPATH': '/home/calinp/ros-practice/build/ExampleLaunch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MFLAGS': '', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages'}, 'shell': False}
+[7.668765] (-) TimerEvent: {}
+[7.700557] (ExampleLaunch) StdoutLine: {'line': b'running egg_info\n'}
+[7.701003] (ExampleLaunch) StdoutLine: {'line': b'creating ../build/ExampleLaunch/ExampleLaunch.egg-info\n'}
+[7.705112] (ExampleLaunch) StdoutLine: {'line': b'writing ../build/ExampleLaunch/ExampleLaunch.egg-info/PKG-INFO\n'}
+[7.705633] (ExampleLaunch) StdoutLine: {'line': b'writing dependency_links to ../build/ExampleLaunch/ExampleLaunch.egg-info/dependency_links.txt\n'}
+[7.705942] (ExampleLaunch) StdoutLine: {'line': b'writing requirements to ../build/ExampleLaunch/ExampleLaunch.egg-info/requires.txt\n'}
+[7.706309] (ExampleLaunch) StdoutLine: {'line': b'writing top-level names to ../build/ExampleLaunch/ExampleLaunch.egg-info/top_level.txt\n'}
+[7.706551] (ExampleLaunch) StdoutLine: {'line': b"writing manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'\n"}
+[7.711376] (ExampleLaunch) StdoutLine: {'line': b"reading manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'\n"}
+[7.712030] (ExampleLaunch) StdoutLine: {'line': b"writing manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'\n"}
+[7.712506] (ExampleLaunch) StdoutLine: {'line': b'running build\n'}
+[7.712612] (ExampleLaunch) StdoutLine: {'line': b'running install\n'}
+[7.714996] (ExampleLaunch) StdoutLine: {'line': b'running install_data\n'}
+[7.715262] (ExampleLaunch) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index\n'}
+[7.715532] (ExampleLaunch) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index\n'}
+[7.715707] (ExampleLaunch) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index/packages\n'}
+[7.715925] (ExampleLaunch) StdoutLine: {'line': b'copying resource/ExampleLaunch -> /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index/packages\n'}
+[7.716175] (ExampleLaunch) StdoutLine: {'line': b'copying package.xml -> /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch\n'}
+[7.716931] (ExampleLaunch) StdoutLine: {'line': b'creating /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch/launch\n'}
+[7.717124] (ExampleLaunch) StdoutLine: {'line': b'copying launch/nodes.launch.py -> /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch/launch\n'}
+[7.717653] (ExampleLaunch) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.726976] (ExampleLaunch) StdoutLine: {'line': b'Copying ../build/ExampleLaunch/ExampleLaunch.egg-info to /home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages/ExampleLaunch-0.0.0-py3.12.egg-info\n'}
+[7.732789] (ExampleLaunch) StdoutLine: {'line': b'running install_scripts\n'}
+[7.768657] (ExampleLaunch) StdoutLine: {'line': b"writing list of installed files to '/home/calinp/ros-practice/build/ExampleLaunch/install.log'\n"}
+[7.770218] (-) TimerEvent: {}
+[7.779822] (ExampleLaunch) CommandEnded: {'returncode': 0}
+[7.786601] (ExampleLaunch) JobEnded: {'identifier': 'ExampleLaunch', 'rc': 0}
+[7.787913] (-) EventReactorShutdown: {}

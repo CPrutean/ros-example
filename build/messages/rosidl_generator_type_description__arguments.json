@@ -1,0 +1,12 @@
+{
+  "package_name": "messages",
+  "output_dir": "/home/calinp/ros-practice/build/messages/rosidl_generator_type_description/messages",
+  "idl_tuples": [
+    "/home/calinp/ros-practice/build/messages/rosidl_adapter/messages:msg/ExampleMsg.idl",
+    "/home/calinp/ros-practice/build/messages/rosidl_adapter/messages:srv/ExampleService.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

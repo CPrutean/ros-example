@@ -1,0 +1,37 @@
+[0.331s] Invoking command in '/home/calinp/ros-practice/ExamplePythonNode': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode PYTHONPATH=/home/calinp/ros-practice/build/ExamplePythonNode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ExamplePythonNode build --build-base /home/calinp/ros-practice/build/ExamplePythonNode/build install --record /home/calinp/ros-practice/build/ExamplePythonNode/install.log --install-scripts $base/lib/ExamplePythonNode --single-version-externally-managed install_data
+[0.426s] running egg_info
+[0.427s] creating ../build/ExamplePythonNode/ExamplePythonNode.egg-info
+[0.432s] writing ../build/ExamplePythonNode/ExamplePythonNode.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/dependency_links.txt
+[0.433s] writing entry points to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/entry_points.txt
+[0.433s] writing requirements to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/requires.txt
+[0.433s] writing top-level names to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/top_level.txt
+[0.434s] writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+[0.444s] reading manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+[0.446s] writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+[0.448s] running build
+[0.448s] running build_py
+[0.449s] creating /home/calinp/ros-practice/build/ExamplePythonNode/build
+[0.449s] creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib
+[0.449s] creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+[0.449s] copying ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+[0.449s] copying ExamplePythonNode/main.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+[0.455s] running install
+[0.455s] running install_lib
+[0.458s] creating /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+[0.458s] copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+[0.459s] copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/main.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+[0.460s] byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/__init__.py to __init__.cpython-312.pyc
+[0.461s] byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/main.py to main.cpython-312.pyc
+[0.462s] running install_data
+[0.463s] creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index
+[0.463s] creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index
+[0.463s] creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages
+[0.464s] copying resource/ExamplePythonNode -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages
+[0.464s] copying package.xml -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ExamplePythonNode
+[0.465s] running install_egg_info
+[0.473s] Copying ../build/ExamplePythonNode/ExamplePythonNode.egg-info to /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode-0.0.0-py3.12.egg-info
+[0.478s] running install_scripts
+[0.532s] Installing ExamplePythonNode script to /home/calinp/ros-practice/install/ExamplePythonNode/lib/ExamplePythonNode
+[0.534s] writing list of installed files to '/home/calinp/ros-practice/build/ExamplePythonNode/install.log'
+[0.550s] Invoked command in '/home/calinp/ros-practice/ExamplePythonNode' returned '0': CMAKE_PREFIX_PATH=/home/calinp/ros-practice/install/messages:/home/calinp/ros-practice/install/ExampleCppNode PYTHONPATH=/home/calinp/ros-practice/build/ExamplePythonNode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ExamplePythonNode build --build-base /home/calinp/ros-practice/build/ExamplePythonNode/build install --record /home/calinp/ros-practice/build/ExamplePythonNode/install.log --install-scripts $base/lib/ExamplePythonNode --single-version-externally-managed install_data

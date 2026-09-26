@@ -1,0 +1,25 @@
+[0.242s] Invoking command in '/home/calinp/ros-practice/ExampleLaunch': AMENT_PREFIX_PATH=/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/build/ExampleLaunch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ExampleLaunch build --build-base /home/calinp/ros-practice/build/ExampleLaunch/build install --record /home/calinp/ros-practice/build/ExampleLaunch/install.log --single-version-externally-managed install_data
+[0.312s] running egg_info
+[0.315s] creating ../build/ExampleLaunch/ExampleLaunch.egg-info
+[0.316s] writing ../build/ExampleLaunch/ExampleLaunch.egg-info/PKG-INFO
+[0.317s] writing dependency_links to ../build/ExampleLaunch/ExampleLaunch.egg-info/dependency_links.txt
+[0.317s] writing requirements to ../build/ExampleLaunch/ExampleLaunch.egg-info/requires.txt
+[0.317s] writing top-level names to ../build/ExampleLaunch/ExampleLaunch.egg-info/top_level.txt
+[0.318s] writing manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'
+[0.323s] reading manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'
+[0.323s] writing manifest file '../build/ExampleLaunch/ExampleLaunch.egg-info/SOURCES.txt'
+[0.324s] running build
+[0.324s] running install
+[0.326s] running install_data
+[0.327s] creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index
+[0.327s] creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index
+[0.327s] creating /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index/packages
+[0.327s] copying resource/ExampleLaunch -> /home/calinp/ros-practice/install/ExampleLaunch/share/ament_index/resource_index/packages
+[0.327s] copying package.xml -> /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch
+[0.328s] creating /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch/launch
+[0.328s] copying launch/nodes.launch.py -> /home/calinp/ros-practice/install/ExampleLaunch/share/ExampleLaunch/launch
+[0.329s] running install_egg_info
+[0.338s] Copying ../build/ExampleLaunch/ExampleLaunch.egg-info to /home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages/ExampleLaunch-0.0.0-py3.12.egg-info
+[0.347s] running install_scripts
+[0.380s] writing list of installed files to '/home/calinp/ros-practice/build/ExampleLaunch/install.log'
+[0.391s] Invoked command in '/home/calinp/ros-practice/ExampleLaunch' returned '0': AMENT_PREFIX_PATH=/home/calinp/ros-practice/install/ExamplePythonNode:/home/calinp/ros-practice/install/ExampleLaunch:/home/calinp/ros-practice/install/ExampleCppNode:/home/calinp/ros-practice/install/messages:/opt/ros/jazzy PYTHONPATH=/home/calinp/ros-practice/build/ExampleLaunch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages:/home/calinp/ros-practice/install/messages/lib/python3.12/site-packages:/home/calinp/ros-practice/install/ExampleLaunch/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ExampleLaunch build --build-base /home/calinp/ros-practice/build/ExampleLaunch/build install --record /home/calinp/ros-practice/build/ExampleLaunch/install.log --single-version-externally-managed install_data

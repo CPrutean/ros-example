@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/ExamplePythonNode/ExamplePythonNode.egg-info
+writing ../build/ExamplePythonNode/ExamplePythonNode.egg-info/PKG-INFO
+writing dependency_links to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/dependency_links.txt
+writing entry points to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/entry_points.txt
+writing requirements to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/requires.txt
+writing top-level names to ../build/ExamplePythonNode/ExamplePythonNode.egg-info/top_level.txt
+writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+reading manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+writing manifest file '../build/ExamplePythonNode/ExamplePythonNode.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/calinp/ros-practice/build/ExamplePythonNode/build
+creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib
+creating /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+copying ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+copying ExamplePythonNode/main.py -> /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode
+running install
+running install_lib
+creating /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/__init__.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+copying /home/calinp/ros-practice/build/ExamplePythonNode/build/lib/ExamplePythonNode/main.py -> /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode
+byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode/main.py to main.cpython-312.pyc
+running install_data
+creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index
+creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index
+creating /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages
+copying resource/ExamplePythonNode -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ament_index/resource_index/packages
+copying package.xml -> /home/calinp/ros-practice/install/ExamplePythonNode/share/ExamplePythonNode
+running install_egg_info
+Copying ../build/ExamplePythonNode/ExamplePythonNode.egg-info to /home/calinp/ros-practice/install/ExamplePythonNode/lib/python3.12/site-packages/ExamplePythonNode-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ExamplePythonNode script to /home/calinp/ros-practice/install/ExamplePythonNode/lib/ExamplePythonNode
+writing list of installed files to '/home/calinp/ros-practice/build/ExamplePythonNode/install.log'
