@@ -1,7 +1,0 @@
-{
-  "package_name": "messages",
-  "non_idl_tuples": [
-    "/home/calinp/ros-practice/messages:msg/ExampleMsg.msg",
-    "/home/calinp/ros-practice/messages:srv/ExampleService.srv"
-  ]
-}
