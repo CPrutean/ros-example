@@ -9,4 +9,5 @@ Run `make` to build the ament packages
 
 > [!NOTE]
 > Make sure to source `/opt/ros/jazzy/setup.sh` and the build artifact `install/setup.sh` before launch
-> Run `make launch` to launch the ros nodes
+
+Run `make launch` to launch the ros nodes
